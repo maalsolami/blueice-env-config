@@ -18,11 +18,11 @@ Traceback (most recent call last):
     self.sensor = world.spawn_actor(bp, carla.Transform(), attach_to=self._parent)
 RuntimeError: rpc::rpc_error during call in function spawn_actor_with_parent
 ```
-Use the environment configuratoin files as below, and it is highly recommended to use a virtual environement manager such as conda. This was tested with Python 3.8, and it is assumed that you have already installed if you choose to use requirements.txt:
+Use the environment configuratoin files as below, and it is highly recommended to use a virtual environement manager such as conda. This was tested with Python 3.10, and it is assumed that you have already installed if you choose to use requirements.txt:
 
 ``` bash
 conda env create --file environment.yml
-pip3 install carla-0.9.15-cp38-cp38-linux_x86_64.whl
+pip3 install carla-0.9.15-cp310-cp10-linux_x86_64.whl
 ```
 
 You should also clone [CARLA simulator repository](https://github.com/carla-simulator/carla/) to access the client scripts (carla/PythonAPI).
