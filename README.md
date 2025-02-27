@@ -21,7 +21,7 @@ RuntimeError: rpc::rpc_error during call in function spawn_actor_with_parent
 Use the environment configuratoin files as below, and it is highly recommended to use a virtual environement manager such as conda. This was tested with Python 3.10, and it is assumed that you have already installed if you choose to use requirements.txt:
 
 ``` bash
-conda env create --file environment.yml
+conda env create --file blueice-0-9-15.yml
 pip3 install carla-0.9.15-cp310-cp10-linux_x86_64.whl
 ```
 
